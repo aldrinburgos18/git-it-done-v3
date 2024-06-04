@@ -30,7 +30,7 @@ var getUserRepos = function (user) {
         });
       } else {
         console.log(response);
-        alert("Error: " + response.statusText);
+        alert("Error " + response.status);
       }
     })
     .catch(function (error) {
