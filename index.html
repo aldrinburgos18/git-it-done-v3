@@ -29,10 +29,20 @@
             <button type="submit" class="btn">Get User</button>
           </form>
         </div>
+
+        <div class="card">
+          <h3 class="card-header">Search By Topic</h3>
+          <div class="card-body" id="language-buttons">
+            <button class="btn" data-language="Python">Python</button>
+            <button class="btn" data-language="Javascript">Javascript</button>
+            <button class="btn" data-language="HTML">HTML</button>
+            <button class="btn" data-language="CSS">CSS</button>
+          </div>
+        </div>
       </div>
 
       <div class="col-12 col-md-8">
-        <h2 class="subtitle">Showing Repositories for: <span id="repo-search-term"></span></h2>
+        <h2 class="subtitle">Showing Repositories for <span id="repo-search-term"></span>:</h2>
         <div id="repos-container" class="list-group"></div>
       </div>
     </main>
